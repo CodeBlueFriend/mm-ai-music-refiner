@@ -1,0 +1,4 @@
+interface:
+  display_name: "MM AI Music Refiner"
+  short_description: "本地分析整曲并生成可解释、可撤销的音乐优化方案与报告"
+  default_prompt: "Use $mm-ai-music-refiner to inspect this song locally and produce an explainable issue timeline and repair plan."

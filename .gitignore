@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+dist/
+build/
+*.egg-info/
+projects/
+*.wav
+*.flac
+*.mp3
+*.m4a

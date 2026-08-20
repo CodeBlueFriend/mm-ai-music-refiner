@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mm-ai-music-refiner"
+version = "0.1.0"
+description = "Local-first, explainable and non-destructive music quality diagnostics"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+mm-music-refiner = "mm_music_refiner.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
